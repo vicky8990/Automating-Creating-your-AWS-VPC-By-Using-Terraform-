@@ -18,7 +18,7 @@ Before using this project, ensure you have the following installed:
 
 - [Terraform](https://www.terraform.io/downloads)
 - [AWS CLI](https://docs.aws.amazon.com/cli/latest/userguide/install-cliv2.html)
-- An AWS Account with credentials configured (`~/.aws/credentials`)
+- An AWS Account with credentials configured (`~/.aws/credentials')
 
 ---
 
@@ -29,3 +29,14 @@ Before using this project, ensure you have the following installed:
 ```bash
 git clone https://github.com/your-username/automating-aws-vpc-terraform.git
 cd automating-aws-vpc-terraform
+
+## How do I run this repository? What is the command that is used?
+
+-terraform init -this command will download all the required files.
+-terraform validate -this command will validate or check whether all the configurations are correct.
+-terraform plan -this command will plan.
+-terraform apply -this command will apply all the configurations from the waiting stage to the run stage. 
+
+
+
+
